@@ -13,8 +13,7 @@ public class calculo {
 		System.out.println("Qual o ano você deseja saber sua idade?");
 		ano_idade=teclado.nextInt();
 		System.out.println("Em "+ ano_idade +" você terá " + (ano_idade-ano_nasc)+" anos de idade.");
-		
-
-	}
+	
+}
 
 }
