@@ -1,0 +1,13 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	int n1, n2, mult;
+	n1= 6;
+	n2= 10;
+	mult= n1*n2;
+	System.out.println("O resultado da multiplicação de 6x10 é: "+ mult);
+
+	}
+
+}

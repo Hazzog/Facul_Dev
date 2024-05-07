@@ -1,0 +1,16 @@
+package novosalario;
+
+import java.util.Scanner;
+
+public class novosalario {
+
+	public static void main(String[] args) {
+		double salAtual;
+		double nvsalario;
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("Qual o seu salário atual?");
+		salAtual= teclado.nextDouble();
+		nvsalario= (salAtual*0.25);
+		System.out.println("Seu novo salário será de R$"+ (nvsalario+salAtual));	}
+;
+}

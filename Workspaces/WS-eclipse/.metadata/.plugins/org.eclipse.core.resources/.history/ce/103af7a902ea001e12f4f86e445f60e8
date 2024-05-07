@@ -1,0 +1,17 @@
+package controle;
+
+import javax.swing.JOptionPane;
+
+public class calculos {
+
+	public static void main(String[] args) {
+		double n1;
+		double n2;
+		n1= Double.valueOf(JOptionPane.showInputDialog("Digite um número:"));
+		n2= Double.valueOf(JOptionPane.showInputDialog("Digite outro número:"));
+ 
+
+
+	}
+
+}
